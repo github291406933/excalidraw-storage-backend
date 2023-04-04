@@ -1,4 +1,4 @@
-FROM node:16-alpine as builder
+FROM node:16-alpine
 
 RUN apk add --update python3 make g++ curl
 RUN npm install -g eslint
